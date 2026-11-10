@@ -1,9 +1,8 @@
 "use client";
 
 import React, { createContext, useContext, useEffect, useRef, useState } from "react";
+import { API_BASE_URL } from "@/config/api";
 import { SearchFilters, User } from "@/types";
-
-export const API_BASE_URL = "http://localhost:8000";
 
 export const DEFAULT_FILTERS: SearchFilters = {
   location: "",

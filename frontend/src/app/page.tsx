@@ -2,7 +2,8 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
-import { API_BASE_URL, useApp } from "@/context/AppContext";
+import { API_BASE_URL } from "@/config/api";
+import { useApp } from "@/context/AppContext";
 import FilterBar from "@/components/FilterBar";
 import ListingCard from "@/components/ListingCard";
 import InteractiveMap from "@/components/InteractiveMap";

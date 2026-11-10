@@ -5,6 +5,7 @@ import { AppProvider } from "@/context/AppContext";
 import Navbar from "@/components/Navbar";
 import AuthModal from "@/components/AuthModal";
 import FilterModal from "@/components/FilterModal";
+import Footer from "@/components/Footer";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -29,18 +30,7 @@ export default function RootLayout({
           <AuthModal />
           <FilterModal />
           <main className="flex-1">{children}</main>
-          <footer className="border-t border-[#DDDDDD] bg-[#F7F7F7] mt-12">
-            <div className="max-w-[1440px] mx-auto px-6 md:px-10 py-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#6A6A6A]">
-              <div>© 2026 Airbnb Clone · SDE Fullstack Evaluation</div>
-              <div className="flex items-center gap-4">
-                <span>Privacy</span>
-                <span>·</span>
-                <span>Terms</span>
-                <span>·</span>
-                <span>INR (₹)</span>
-              </div>
-            </div>
-          </footer>
+          <Footer />
         </AppProvider>
       </body>
     </html>

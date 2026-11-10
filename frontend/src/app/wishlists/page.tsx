@@ -3,7 +3,8 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { Heart } from "lucide-react";
-import { API_BASE_URL, useApp } from "@/context/AppContext";
+import { API_BASE_URL } from "@/config/api";
+import { useApp } from "@/context/AppContext";
 import ListingCard from "@/components/ListingCard";
 import { Listing } from "@/types";
 

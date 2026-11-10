@@ -31,7 +31,8 @@ import {
   Wind,
   X,
 } from "lucide-react";
-import { API_BASE_URL, useApp } from "@/context/AppContext";
+import { API_BASE_URL } from "@/config/api";
+import { useApp } from "@/context/AppContext";
 import BookingCheckoutModal from "@/components/BookingCheckoutModal";
 import { Listing, Review } from "@/types";
 

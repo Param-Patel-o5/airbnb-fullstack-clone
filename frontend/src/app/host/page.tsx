@@ -14,7 +14,8 @@ import {
   Star,
   Trash2,
 } from "lucide-react";
-import { API_BASE_URL, useApp } from "@/context/AppContext";
+import { API_BASE_URL } from "@/config/api";
+import { useApp } from "@/context/AppContext";
 import HostListingModal from "@/components/HostListingModal";
 import { Booking, Listing } from "@/types";
 

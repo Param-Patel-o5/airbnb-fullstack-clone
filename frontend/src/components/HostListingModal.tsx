@@ -2,7 +2,8 @@
 
 import React, { useEffect, useState } from "react";
 import { Sparkles, X } from "lucide-react";
-import { API_BASE_URL, useApp } from "@/context/AppContext";
+import { API_BASE_URL } from "@/config/api";
+import { useApp } from "@/context/AppContext";
 import { Listing } from "@/types";
 
 const CATEGORIES = [

@@ -3,7 +3,8 @@
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import { CheckCircle2, CreditCard, ShieldCheck, Smartphone, X } from "lucide-react";
-import { API_BASE_URL, useApp } from "@/context/AppContext";
+import { API_BASE_URL } from "@/config/api";
+import { useApp } from "@/context/AppContext";
 import { Listing } from "@/types";
 
 interface BookingCheckoutModalProps {

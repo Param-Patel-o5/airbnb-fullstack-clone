@@ -28,3 +28,6 @@ env/
 # OS Files
 .DS_Store
 Thumbs.db
+
+# Assignment Brief PDF (kept locally, excluded from git)
+Assignment Airbnb Clone.pdf
