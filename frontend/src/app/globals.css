@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #222222;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-rausch: #FF385C;
+  --color-ink: #222222;
+  --color-ash: #6A6A6A;
+  --color-hairline: #DDDDDD;
+  --color-surface: #F7F7F7;
+  --background-image-rausch-gradient: linear-gradient(to right, #E61E4D, #E31C5F, #D70466);
+  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: #222222;
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Hide scrollbars cleanly on horizontal discovery carousels and filter strips */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
